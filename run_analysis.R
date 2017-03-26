@@ -5,14 +5,15 @@ library(reshape2)
 ###############################################################################
 filename <- "getdata_dataset.zip"
 
-# Download and unzip the dataset:
+# Download and unzip the dataset
 if (!file.exists(filename)){
   download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", filename, method="curl")
-}  
-if (!file.exists("UCI HAR Dataset")) { 
-  unzip(filename) 
+}
+if (!file.exists("UCI HAR Dataset")) {
+  unzip(filename)
 }
 
+# Load activity labels and features
 activity_labels <- read.table("UCI HAR Dataset/activity_labels.txt")
 activity_labels[,2] <- as.character(activity_labels[,2])
 features <- read.table("UCI HAR Dataset/features.txt")
@@ -64,7 +65,7 @@ all_data$subject <- as.factor(all_data$subject)
 #		  set with the average of each variable for each activity and each 
 #		  subject.
 ###############################################################################
-melted_data <- melt(result, id = c("subject", "activity"))
+melted_data <- melt(all_data, id = c("subject", "activity"))
 result <- dcast(melted_data, subject + activity ~ variable, mean)
 
 
