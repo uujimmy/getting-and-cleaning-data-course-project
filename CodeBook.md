@@ -5,12 +5,12 @@ This code book summarizes the tidy data fields in result.txt.
 ### First two fields are identifiers
 - subject - The ID of the test subject
 - activity - The type of activity performed when the corresponding measurements were taken
-* WALKING: subject was walking
-* WALKING_UPSTAIRS: subject was walking up a staircase
-* WALKING_DOWNSTAIRS: subject was walking down a staircase
-* SITTING: subject was sitting
-* STANDING: subject was standing
-* LAYING: subject was laying down
+	* WALKING: subject was walking
+	* WALKING_UPSTAIRS: subject was walking up a staircase
+	* WALKING_DOWNSTAIRS: subject was walking down a staircase
+	* SITTING: subject was sitting
+	* STANDING: subject was standing
+	* LAYING: subject was laying down
 
 ### Subsequence fields are average of measurements
 
@@ -57,85 +57,85 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 The complete list of fields show as following:
 
 - Time-domain signals
-* tBodyAccMeanX
-* tBodyAccMeanY
-* tBodyAccMeanZ
-* tBodyAccStdX
-* tBodyAccStdY
-* tBodyAccStdZ
-* tGravityAccMeanX
-* tGravityAccMeanY
-* tGravityAccMeanZ
-* tGravityAccStdX
-* tGravityAccStdY
-* tGravityAccStdZ
-* tBodyAccJerkMeanX
-* tBodyAccJerkMeanY
-* tBodyAccJerkMeanZ
-* tBodyAccJerkStdX
-* tBodyAccJerkStdY
-* tBodyAccJerkStdZ
-* tBodyGyroMeanX
-* tBodyGyroMeanY
-* tBodyGyroMeanZ
-* tBodyGyroStdX
-* tBodyGyroStdY
-* tBodyGyroStdZ
-* tBodyGyroJerkMeanX
-* tBodyGyroJerkMeanY
-* tBodyGyroJerkMeanZ
-* tBodyGyroJerkStdX
-* tBodyGyroJerkStdY
-* tBodyGyroJerkStdZ
-* tBodyAccMagMean
-* tBodyAccMagStd
-* tGravityAccMagMean
-* tGravityAccMagStd
-* tBodyAccJerkMagMean
-* tBodyAccJerkMagStd
-* tBodyGyroMagMean
-* tBodyGyroMagStd
-* tBodyGyroJerkMagMean
-* tBodyGyroJerkMagStd
+	* tBodyAccMeanX
+	* tBodyAccMeanY
+	* tBodyAccMeanZ
+	* tBodyAccStdX
+	* tBodyAccStdY
+	* tBodyAccStdZ
+	* tGravityAccMeanX
+	* tGravityAccMeanY
+	* tGravityAccMeanZ
+	* tGravityAccStdX
+	* tGravityAccStdY
+	* tGravityAccStdZ
+	* tBodyAccJerkMeanX
+	* tBodyAccJerkMeanY
+	* tBodyAccJerkMeanZ
+	* tBodyAccJerkStdX
+	* tBodyAccJerkStdY
+	* tBodyAccJerkStdZ
+	* tBodyGyroMeanX
+	* tBodyGyroMeanY
+	* tBodyGyroMeanZ
+	* tBodyGyroStdX
+	* tBodyGyroStdY
+	* tBodyGyroStdZ
+	* tBodyGyroJerkMeanX
+	* tBodyGyroJerkMeanY
+	* tBodyGyroJerkMeanZ
+	* tBodyGyroJerkStdX
+	* tBodyGyroJerkStdY
+	* tBodyGyroJerkStdZ
+	* tBodyAccMagMean
+	* tBodyAccMagStd
+	* tGravityAccMagMean
+	* tGravityAccMagStd
+	* tBodyAccJerkMagMean
+	* tBodyAccJerkMagStd
+	* tBodyGyroMagMean
+	* tBodyGyroMagStd
+	* tBodyGyroJerkMagMean
+	* tBodyGyroJerkMagStd
 
 - Frequency-domain signals
-* fBodyAccMeanX
-* fBodyAccMeanY
-* fBodyAccMeanZ
-* fBodyAccStdX
-* fBodyAccStdY
-* fBodyAccStdZ
-* fBodyAccMeanFreqX
-* fBodyAccMeanFreqY
-* fBodyAccMeanFreqZ
-* fBodyAccJerkMeanX
-* fBodyAccJerkMeanY
-* fBodyAccJerkMeanZ
-* fBodyAccJerkStdX
-* fBodyAccJerkStdY
-* fBodyAccJerkStdZ
-* fBodyAccJerkMeanFreqX
-* fBodyAccJerkMeanFreqY
-* fBodyAccJerkMeanFreqZ
-* fBodyGyroMeanX
-* fBodyGyroMeanY
-* fBodyGyroMeanZ
-* fBodyGyroStdX
-* fBodyGyroStdY
-* fBodyGyroStdZ
-* fBodyGyroMeanFreqX
-* fBodyGyroMeanFreqY
-* fBodyGyroMeanFreqZ
-* fBodyAccMagMean
-* fBodyAccMagStd
-* fBodyAccMagMeanFreq
-* fBodyBodyAccJerkMagMean
-* fBodyBodyAccJerkMagStd
-* fBodyBodyAccJerkMagMeanFreq
-* fBodyBodyGyroMagMean
-* fBodyBodyGyroMagStd
-* fBodyBodyGyroMagMeanFreq
-* fBodyBodyGyroJerkMagMean
-* fBodyBodyGyroJerkMagStd
-* fBodyBodyGyroJerkMagMeanFreq
+	* fBodyAccMeanX
+	* fBodyAccMeanY
+	* fBodyAccMeanZ
+	* fBodyAccStdX
+	* fBodyAccStdY
+	* fBodyAccStdZ
+	* fBodyAccMeanFreqX
+	* fBodyAccMeanFreqY
+	* fBodyAccMeanFreqZ
+	* fBodyAccJerkMeanX
+	* fBodyAccJerkMeanY
+	* fBodyAccJerkMeanZ
+	* fBodyAccJerkStdX
+	* fBodyAccJerkStdY
+	* fBodyAccJerkStdZ
+	* fBodyAccJerkMeanFreqX
+	* fBodyAccJerkMeanFreqY
+	* fBodyAccJerkMeanFreqZ
+	* fBodyGyroMeanX
+	* fBodyGyroMeanY
+	* fBodyGyroMeanZ
+	* fBodyGyroStdX
+	* fBodyGyroStdY
+	* fBodyGyroStdZ
+	* fBodyGyroMeanFreqX
+	* fBodyGyroMeanFreqY
+	* fBodyGyroMeanFreqZ
+	* fBodyAccMagMean
+	* fBodyAccMagStd
+	* fBodyAccMagMeanFreq
+	* fBodyBodyAccJerkMagMean
+	* fBodyBodyAccJerkMagStd
+	* fBodyBodyAccJerkMagMeanFreq
+	* fBodyBodyGyroMagMean
+	* fBodyBodyGyroMagStd
+	* fBodyBodyGyroMagMeanFreq
+	* fBodyBodyGyroJerkMagMean
+	* fBodyBodyGyroJerkMagStd
+	* fBodyBodyGyroJerkMagMeanFreq
 
